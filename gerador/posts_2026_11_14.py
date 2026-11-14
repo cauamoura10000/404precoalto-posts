@@ -63,8 +63,8 @@ fix = f"""
 <div class="glass" style="left:72px;right:72px;top:330px;bottom:150px;padding:60px 64px">
  <div class="lab" style="color:#EEF2F5">ofertas tech todo dia</div>
  <h1 style="font-size:84px;margin-top:22px">Preço alto?<br>Aqui <span class="g">não.</span></h1>
- <p style="margin-top:24px;font-size:34px">Entra no grupo pelo link na bio e recebe as ofertas na hora.</p>
- <div class="lab" style="margin:40px 0 4px">regras do grupo</div>
+ <p style="margin-top:24px;font-size:34px">Entra no grupo do Telegram pelo link na bio e recebe as ofertas na hora.</p>
+ <div class="lab" style="margin:40px 0 4px">regras do grupo no telegram</div>
  {rows}
 </div>
 <div class="bot"><span>@404precoalto</span><span>link na bio</span></div>"""
@@ -100,9 +100,9 @@ q[3] = rf(3, """
 q[4] = rf(4, """
 <div class="bg404" style="font-size:600px;left:50%;transform:translateX(-50%);top:300px">404</div>
 <div class="dot" style="width:170px;height:170px;background:#FF8A3D;right:110px;top:700px"></div>
-<div class="glass" style="left:72px;right:72px;top:820px;height:620px;padding:80px;display:flex;flex-direction:column;justify-content:center">
+<div class="glass" style="left:72px;right:72px;top:800px;height:720px;padding:80px;display:flex;flex-direction:column;justify-content:center">
  <div class="lab">black friday · 27/11</div>
- <h1 style="font-size:112px;margin-top:30px">Entra no grupo antes que o preço suba.</h1>
+ <h1 style="font-size:100px;margin-top:30px">Entra no grupo do Telegram antes que o preço suba.</h1>
  <div style="margin-top:50px"><div class="cta" style="font-size:46px">Link na bio</div></div>
 </div>""", 'segue o perfil')
 for n, b in q.items():
@@ -120,7 +120,7 @@ st = """
   <h1 style="font-size:112px;margin-top:30px">Que produto você quer ver em <span class="g">promoção?</span></h1>
   <p style="margin-top:40px;font-size:44px">Responde aqui no direct. A gente caça a oferta.</p>
  </div>
- <div><div class="cta" style="font-size:44px">Grupo: link na bio</div></div>
+ <div><div class="cta" style="font-size:44px">Telegram: link na bio</div></div>
 </div>
 <div class="bot"><span>@404precoalto</span><span>responde no direct</span></div>"""
 render('404precoalto-stories-caixinha', st, 1080, 1920, top=T, bot=B)
