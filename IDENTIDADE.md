@@ -1,5 +1,18 @@
 # Identidade visual — 404 Preço Alto
 
+> **Estilo atual (desde 14/11/2026): CARTAZ DE OFERTA.** O Cauã trocou o liquid glass por este. Referência viva: `gerador/carrossel_ofertas_2026_11_14.py`.
+
+- **Estilo:** cartaz de loja. Fundo amarelo chapado `#FFD60A`, texto preto `#111`, destaque vermelho `#E10600` com texto branco. Sem vidro, brilho, degradê, sombra ou emoji.
+- **Fontes** (`npm pack @fontsource/anton @fontsource/archivo`, embutidas em base64): Anton em caixa alta nos títulos, preços e selos; Archivo 800 em caixa alta nos textos de apoio.
+- **Moldura:** faixa preta no topo (120 px) com `404 PREÇO ALTO` à esquerda e um rótulo à direita, em amarelo; rodapé com texto de apoio à esquerda e selo preto (`LINK NA BIO`, `LINK NO GRUPO`) à direita.
+- **Destaque:** uma faixa vermelha levemente inclinada (-2°) com a frase ou o preço principal. Uma por arte.
+- **Ofertas:** só preço real visto no dia, com loja e data no rodapé ("Visto em DD/MM no ..."). Sem preço "de" que não foi conferido. Sem link de compra na arte: o link fica no grupo do Telegram.
+- **Formatos, render e pastas:** iguais aos da seção antiga abaixo.
+
+---
+
+## Estilo antigo (liquid glass, até 14/11/2026)
+
 Referência viva: `gerador/carrossel_quem_somos.py` (gera o carrossel "Quem somos"). Copie a base de CSS dele.
 
 - **Estilo:** liquid glass. Painéis de vidro fosco (`backdrop-filter: blur(26px) saturate(170%)`, borda branca 24% de opacidade, brilho interno no topo, sombra funda) por cima de formas SÓLIDAS (números "404" gigantes e círculos) que aparecem desfocadas através do vidro.
